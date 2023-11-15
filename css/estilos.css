@@ -1,14 +1,16 @@
 :root {
-  --cinza: #aaa;
-  --vermelha: #000000;
+  --cinza: #372f2f;
+  --vermelha: #ff7a2b;
   --vermelha-escura: #000000;
-  --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --branca: #000;
+  --luz: rgb(88 82 82);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #ffffff 0%,#d3d3d3 100%);
+  background-image: url(https://images6.alphacoders.com/498/498652.jpg);
+  background-size: 2000px 1080px;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,23 +25,23 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #ff4800 0%,#ff4800 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  background: linear-gradient(to bottom, #ff692cc7 0%,#ff5918cc 100%);
+  box-shadow: 5px 8px  5px #000, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
-  gap: 10px;
+  gap: 11px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
 }
 
 .tecla {
-  background-color: var(--branca);
+  background-color: #212020;
   border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
+  box-shadow: 4px 4px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
   height: 120px;
-  font-size: 1.75em;
+  font-size: 1.80em;
   font-weight: bold;
   line-height: 120px;
   text-align: center;
@@ -49,7 +51,7 @@ h1 {
 .tecla.ativa,
 .tecla:active {
   background-color: var(--vermelha);
-  border: 4px solid  var(--vermelha);
+  border: 6px solid  var(--vermelha);
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
   color: var(--branca);
   outline: none;
