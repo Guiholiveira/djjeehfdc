@@ -65,7 +65,7 @@ h1 {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
 
-.tecla_title, .tecla_number {
+.tecla_title, .tecla_number, .tecla_3 {
     display: block;
 
     padding: 0;
@@ -82,5 +82,10 @@ h1 {
 
 .tecla_number {
     font-size: 11
-      0%;
+      100%;
+}
+
+.tecla_3 {
+    font-size: 11
+      100%;
 }
