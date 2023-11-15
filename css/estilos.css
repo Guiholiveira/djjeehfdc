@@ -19,13 +19,13 @@ body {
 }
 
 h1 {
-  color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
+  color: #ff7615;
+  margin-bottom: 30px;
+  font-size: 3rem;
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #ff692cc7 0%,#ff5918cc 100%);
+  background: linear-gradient(to bottom, #ff692ce6 0%,#ff5918e0 100%);
   box-shadow: 5px 8px  5px #000, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
